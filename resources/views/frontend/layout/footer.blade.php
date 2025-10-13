@@ -13,10 +13,10 @@
 
             </p>
             <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+              <i class="fa fa-phone-alt me-3"></i> 9423636143 
             </p>
             <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>info@example.com
+              <i class="fa fa-envelope me-3"></i>info@gmail.com
             </p>
             <div class="d-flex pt-2">
               <a class="btn btn-outline-light btn-social" href=""
