@@ -43,15 +43,15 @@
         </button>
         <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="animals.html" class="nav-item nav-link">Animals</a>
-                <a href="education.html" class="nav-item nav-link">Education & Careers</a>
-                <a href="event.html" class="nav-item nav-link">Event Calendar</a>
-                <a href="adoption.html" class="nav-item nav-link">Adoption & Donation</a>
-                <a href="school.html" class="nav-item nav-link">School Visits</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="index" class="nav-item nav-link active">Home</a>
+                <a href="/about" class="nav-item nav-link">About</a>
+                <a href="/service" class="nav-item nav-link">Services</a>
+                <a href="/animals" class="nav-item nav-link">Animals</a>
+                <a href="/education" class="nav-item nav-link">Education & Careers</a>
+                <a href="/event" class="nav-item nav-link">Event Calendar</a>
+                <a href="/adoption" class="nav-item nav-link">Adoption & Donation</a>
+                <a href="/school" class="nav-item nav-link">School Visits</a>
+                <a href="/contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
