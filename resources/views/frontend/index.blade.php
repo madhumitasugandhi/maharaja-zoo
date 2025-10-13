@@ -142,7 +142,7 @@
               <i class="fa fa-3x fa-mobile-alt text-white"></i>
               <div class="ms-4">
                 <p class="text-white mb-0">Call for more info</p>
-                <h2 class="text-white mb-0">+012 345 6789</h2>
+                <h2 class="text-white mb-0">9423636143</h2>
               </div>
             </div>
           </div>
