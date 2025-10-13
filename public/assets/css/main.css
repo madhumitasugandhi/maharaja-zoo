@@ -94,7 +94,7 @@
     margin-right: 30px;
     padding: 25px 0;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
     outline: none;
@@ -577,4 +577,103 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+
+/* About page css */
+/* ===== Common Section Style ===== */
+.zoo-section {
+  padding: 60px 0;
+}
+
+.zoo-section h1.section-title {
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.zoo-section h1.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #4dc387;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+/* ===== Objectives Section ===== */
+.zoo-objectives {
+  background-color: #f8fff8;
+}
+
+.zoo-objectives .zoo-list-item {
+  background-color: #fff;
+  border: none;
+  width: 50%;
+  border-left: 6px solid #4dc387;
+  margin: 15px auto;
+  padding: 18px 22px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+.zoo-objectives .zoo-list-item:hover {
+  background-color: #edf9ed;
+  transform: translateY(-5px);
+}
+
+
+/* ===== Team Section ===== */
+.zoo-team {
+  background-color: #f8fff8;
+}
+
+.zoo-team .zoo-table {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.zoo-team .zoo-table thead {
+  background-color: #4dc387;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.zoo-team .zoo-table td {
+  background-color: #ffffff;
+  vertical-align: middle;
+}
+
+.zoo-team .zoo-table tr:hover td {
+  background-color: #e9f8e9;
+  transition: all 0.3s ease;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .zoo-objectives .zoo-list-item {
+    padding: 15px;
+    font-size: 0.95rem;
+  }
+  .zoo-mission p {
+    font-size: 0.95rem;
+  }
+}
+
+/*==Animal page css==*/
+.animal-imgs {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
