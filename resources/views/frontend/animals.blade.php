@@ -27,13 +27,13 @@
                 </div>
             </div>
 
-            <div class="text-center mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                <h2 class="display-6 fw-bold text-black">Meet Our Amazing Animals</h2>
+            <div class=" mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                
                 <p class="text-muted">Filter by Category</p>
             </div>
 
             <!-- Filter Buttons -->
-            <div class="mb-4 text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="mb-4 wow fadeInUp" data-wow-delay="0.1s">
                 <button class="btn btn-outline-primary filter-btn active" data-filter="all">All</button>
                 <button class="btn btn-outline-primary filter-btn" data-filter="Mammals">Mammals</button>
                 <button class="btn btn-outline-primary filter-btn" data-filter="Birds">Birds</button>
