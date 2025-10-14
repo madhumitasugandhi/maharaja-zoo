@@ -101,9 +101,9 @@
         >
           <div class="testimonial-item text-center">
             <img
-              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              class="img-fluid rounded-circle border-2 p-2 mx-auto mb-4"
               src="{{ asset('assets/img/icon/icon-1.png') }}"
-              style="width: 100px; height: 100px"
+              style="width: 120px; height: 120px; border: 4px solid #2eb872;"
             />
             <div class="testimonial-text rounded text-center p-4">
               <p>
@@ -114,9 +114,9 @@
           </div>
           <div class="testimonial-item text-center">
             <img
-              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              class="img-fluid rounded-circle border-2 p-2 mx-auto mb-4"
               src="{{ asset('assets/img/icon/icon-2.png') }}"
-              style="width: 100px; height: 100px"
+              style="width: 120px; height: 120px; border: 4px solid #2eb872;"
             />
             <div class="testimonial-text rounded text-center p-4">
               <p>
@@ -126,9 +126,9 @@
           </div>
           <div class="testimonial-item text-center">
             <img
-              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              class="img-fluid rounded-circle p-2 mx-auto mb-4"
               src="{{ asset('assets/img/icon/icon-3.png') }}"
-              style="width: 100px; height: 100px"
+              style="width: 120px; height: 120px; border: 4px solid #2eb872;"
             />
             <div class="testimonial-text rounded text-center p-4">
               <p>
