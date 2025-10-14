@@ -74,7 +74,7 @@
     </div>
 
    <!-- Objectives -->
-<section class="zoo-section zoo-objectives container fadeInUp" data-wow-delay="0.1s">
+<section class="zoo-section zoo-objectives container wow fadeInUp" data-wow-delay="0.1s"">
   <h1 class="section-title">Our Objectives</h1>
   <ul class="list-group list-group-flush list-unstyled">
     <li class="zoo-list-item"><b>Conservation Breeding:</b> Engaging in the conservation breeding of endangered species found within the region.</li>
@@ -86,7 +86,7 @@
 </section>
 
 <!-- Mission -->
-<section class="zoo-section container my-5 fadeInUp" data-wow-delay="0.1s">
+<section class="zoo-section container my-5 wow fadeInUp" data-wow-delay="0.1s">
    <div class="container-xxl py-5">
       <div class="container">
         <h1
@@ -138,11 +138,11 @@
           </div>
         </div>
       </div>
-    </div>4
+    </div>
 </section>
 
 <!-- Team -->
-<section class="zoo-section zoo-team container">
+<section class="zoo-section zoo-team container wow fadeInUp" data-wow-delay="0.1s">
   <h1 class="section-title">Meet Our Team</h1>
   <div class="table-responsive">
     <table class="table table-bordered text-center zoo-table">
@@ -150,20 +150,19 @@
         <tr>
           <th>Designation</th>
           <th>Name / Position</th>
-          <th>Status</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td>Zoo Controller</td><td>Dr. P. R. Kadu</td><td>Designated</td></tr>
-        <tr><td>Officer In-charge (Zoo) / Director</td><td>Dr. S. S. Bawaskar</td><td>1</td></tr>
-        <tr><td>Officer In-charge (Garden)</td><td>Veterinary Officer</td><td>1</td></tr>
-        <tr><td>Curator</td><td>-</td><td>1 (Contractual)</td></tr>
-        <tr><td>Education Officer cum Biologist</td><td>-</td><td>1 (Contractual)</td></tr>
-        <tr><td>Sr. Clerk / Livestock Supervisor</td><td>-</td><td>1</td></tr>
-        <tr><td>Head Keeper</td><td>-</td><td>1 (Permanent) + 1 (Contractual)</td></tr>
-        <tr><td>Agricultural Assistant / Garden Supervisor</td><td>-</td><td>2</td></tr>
-        <tr><td>Sweeper</td><td>-</td><td>1</td></tr>
-        <tr><td>Animal Keeper / Labour / Mazdoor</td><td>-</td><td>20 (Contractual)</td></tr>
+        <tr><td>Zoo Controller</td><td>Dr. P. R. Kadu</td></tr>
+        <tr><td>Officer In-charge (Zoo) / Director</td><td>Dr. S. S. Bawaskar</td></tr>
+        <tr><td>Officer In-charge (Garden)</td><td>Veterinary Officer</td></tr>
+        <tr><td>Curator</td><td>-</td></tr>
+        <tr><td>Education Officer cum Biologist</td><td>-</td></tr>
+        <tr><td>Sr. Clerk / Livestock Supervisor</td><td>-</td></tr>
+        <tr><td>Head Keeper</td><td>-</td></tr>
+        <tr><td>Agricultural Assistant / Garden Supervisor</td><td>-</td></tr>
+        <tr><td>Sweeper</td><td>-</td></tr>
+        <tr><td>Animal Keeper / Labour / Mazdoor</td><td>-</td></tr>
       </tbody>
     </table>
   </div>
