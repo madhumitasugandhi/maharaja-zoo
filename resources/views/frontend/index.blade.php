@@ -70,7 +70,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="img-border">
-                        <img class="img-fluid border border-5 border-success" src="{{ asset('assets/img/logo/logo1.png') }}" alt="" />
+                        <img class="img-fluid bg-white p-4 border border-5 border-success" src="{{ asset('assets/img/logo/logo1.png') }}" alt="" />
                     </div>
                 </div>
             </div>
