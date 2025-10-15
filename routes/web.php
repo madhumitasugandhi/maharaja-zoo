@@ -67,7 +67,12 @@ Route::get('/school', function () {
 Route::get('/contact', function () {
     return view('frontend.contact');
 });
-
+Route::get('/privacy-policy', function () {
+    return view('frontend.privacy-policy');
+});
+Route::get('/terms-and-conditions', function () {
+    return view('frontend.terms-and-conditions');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
