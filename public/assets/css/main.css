@@ -677,3 +677,112 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+/*==Event page css==*/
+/* ✅ Event Card Hover */
+.event-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 128, 0, 0.2);
+}
+
+/* ✅ Event Gallery Grid */
+.event-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+.event-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.event-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+}
+.event-item:hover .event-img {
+    transform: scale(1.05);
+}
+.animal-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0 0 12px 12px;
+}
+.animal-text h5 {
+    font-size: 1.1rem;
+}
+.animal-text p {
+    font-size: 0.85rem;
+}
+
+/* ✅ Responsive Tweaks */
+@media (max-width: 991.98px) {
+    .event-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .event-img {
+        height: 240px;
+    }
+}
+@media (max-width: 575.98px) {
+    .event-gallery {
+        grid-template-columns: 1fr;
+    }
+    .event-img {
+        height: 220px;
+    }
+    .animal-text h5 {
+        font-size: 1rem;
+    }
+}
+/*==School Visit page css==*/
+.student-img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* Student Gallery Hover Effect */
+.student-item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.student-img {
+  transition: all 0.6s ease;
+  border-radius: 12px;
+}
+
+.student-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.student-item:hover .student-img {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
+.student-item:hover .student-overlay {
+  opacity: 1;
+}
+
