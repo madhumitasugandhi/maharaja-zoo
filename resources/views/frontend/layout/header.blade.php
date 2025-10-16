@@ -35,17 +35,17 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
         data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand p-0">
-            <img class="img-fluid me-3" src="{{ asset('assets/img/icon/icon-10.png') }}" alt="Icon" />
-            <h1 class="m-0 text-primary">Maharaj Bagh</h1>
+            <img class="img-fluid me-3" src="{{ asset('assets/img/logo/logo1.png') }}" alt="Icon" />
+            <h1 class="m-0 text-primary">Maharajbag</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-                <a href="index" class="nav-item nav-link active">Home</a>
+                <a href="/" class="nav-item nav-link active">Home</a>
                 <a href="/about" class="nav-item nav-link">About</a>
-                <a href="/service" class="nav-item nav-link">Services</a>
+                <!--<a href="/service" class="nav-item nav-link">Services</a>-->
                 <a href="/animals" class="nav-item nav-link">Animals</a>
                 <a href="/education" class="nav-item nav-link">Education & Careers</a>
                 <a href="/event" class="nav-item nav-link">Event Calendar</a>
