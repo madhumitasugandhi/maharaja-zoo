@@ -38,13 +38,13 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p><span class="text-primary me-2">#</span>Welcome To Maharaj Bagh</p>
+                    <p><span class="text-primary me-2">#</span>Welcome To Maharajbag</p>
                     <h1 class="display-5 mb-4">
                         Why You Should Visit
-                        <span class="text-primary">Maharaj</span> Bagh!
+                        <span class="text-primary">Maharajbag</span>!
                     </h1>
                     <p class="mb-4">
-                        Nestled in the heart of Nagpur, Maharaj Bagh Zoo is one of India’s oldest and most cherished
+                        Nestled in the heart of Nagpur, Maharajbag Zoo is one of India’s oldest and most cherished
                         zoological parks.
                         It stands as a living legacy of wildlife conservation, education, and natural beauty.
                         Here, visitors can connect with nature, witness exotic animals up close, and learn the
@@ -70,7 +70,8 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="img-border">
-                        <img class="img-fluid bg-white p-4 border border-5 border-success" src="{{ asset('assets/img/logo/logo1.png') }}" alt="" />
+                        <img class="about-img img-fluid bg-white p-4 border border-5 border-success"
+                            src="{{ asset('assets/img/logo/logo1.png') }}" alt="" />
                     </div>
                 </div>
             </div>
@@ -82,25 +83,15 @@
     <div class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-4">
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-md-6 col-lg-6 text-center wow fadeIn" data-wow-delay="0.1s">
                     <i class="fa fa-paw fa-3x text-primary mb-3"></i>
-                    <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+                    <h1 class="text-white mb-2" data-toggle="counter-up">247</h1>
                     <p class="text-white mb-0">Total Animal</p>
                 </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-md-6 col-lg-6 text-center wow fadeIn" data-wow-delay="0.3s">
                     <i class="fa fa-users fa-3x text-primary mb-3"></i>
-                    <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-                    <p class="text-white mb-0">Daily Vigitors</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-certificate fa-3x text-primary mb-3"></i>
-                    <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-                    <p class="text-white mb-0">Total Membership</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
-                    <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-                    <p class="text-white mb-0">Save Wild Life</p>
+                    <h1 class="text-white mb-2" data-toggle="counter-up">10,000</h1>
+                    <p class="text-white mb-0">Daily Visitors</p>
                 </div>
             </div>
         </div>
@@ -115,7 +106,7 @@
                     <p><span class="text-primary me-2">#</span>Our Services</p>
                     <h1 class="display-5 mb-0">
                         Special Services For
-                        <span class="text-primary">Maharaj Bagh</span> Visitors
+                        <span class="text-primary">Maharajbag</span> Visitors
                     </h1>
                 </div>
                 <div class="col-lg-6">
@@ -237,7 +228,7 @@
                 <div class="col-lg-6">
                     <p><span class="text-primary me-2">#</span>Our Animals</p>
                     <h1 class="display-5 mb-0">
-                        Let`s See Our <span class="text-primary">Maharaj Bagh</span> Awesome Animals
+                        Let`s See Our <span class="text-primary">Maharajbag</span> Awesome Animals
                     </h1>
                 </div>
                 <div class="col-lg-6 text-lg-end wow fadeInUp" data-wow-delay="0.1s">
@@ -246,7 +237,7 @@
             </div>
 
 
-            <!-- 🐾 Unified Animal Grid -->
+             <!-- 🐾 Unified Animal Grid -->
             <div class="row g-4 animal-gallery wow fadeInUp" data-wow-delay="0.1s">
 
                 <!-- ================= Mammals ================= -->
@@ -367,42 +358,123 @@
 
                 <!--Mammal End-->
 
-
                 <!-- ================= Birds ================= -->
-                @php
-                $birds = [
-                ['name'=>'Emu', 'img'=>'assets/img/animals/birds/emu.jpg', 'desc'=>'Second-tallest bird, endemic to
-                Australia, fast runner.'],
-                ['name'=>'Budgerigar', 'img'=>'assets/img/animals/birds/budgerigar.jpg', 'desc'=>'Small parrot known for
-                vocal mimicry and bright colors.'],
-                ['name'=>'Cockatiel', 'img'=>'assets/img/animals/birds/cockatiel.jpg', 'desc'=>'Small cockatoo with
-                yellow crest and orange cheek patch.'],
-                ['name'=>'Alexandrine Parakeet', 'img'=>'assets/img/animals/birds/alexandrine.jpg', 'desc'=>'Large
-                parakeet with red wing patch and black-pink neck ring.'],
-                ['name'=>'Rose-ringed Parakeet', 'img'=>'assets/img/animals/birds/ringneck.jpg', 'desc'=>'Medium-sized
-                parakeet with black and pink neck ring.'],
-                ];
-                @endphp
-
-                @foreach ($birds as $bird)
                 <div class="col-lg-4 col-md-6 animal-item-card" data-animal="Birds">
-                    <a class="animal-item" href="{{ asset($bird['img']) }}" data-lightbox="animal">
+                    <a class="animal-item" href="{{ asset('assets/img/Animals/birds/emu.jpg') }}"
+                        data-lightbox="animal">
                         <div class="position-relative mb-2">
-                            <img class="animal-imgs img-fluid" src="{{ asset($bird['img']) }}"
-                                alt="{{ $bird['name'] }}">
+                            <img class="animal-imgs img-fluid" src="{{ asset('assets/img/Animals/birds/emu.jpg') }}"
+                                alt="Emu">
                             <div class="animal-text p-4">
                                 <p class="text-white small text-uppercase mb-0">Bird</p>
-                                <h5 class="text-success mb-0"><b>{{ $bird['name'] }}</b></h5>
-                                <i class="text-white">{{ $bird['desc'] }}</i>
+                                <h5 class="text-success mb-0"><b>Emu</b></h5>
+                                <i class="text-white">Second-tallest bird, native to Australia and an excellent
+                                    runner.</i>
                             </div>
                         </div>
                     </a>
                 </div>
-                @endforeach
 
+                <div class="col-lg-4 col-md-6 animal-item-card" data-animal="Birds">
+                    <a class="animal-item" href="{{ asset('assets/img/Animals/birds/budgerigar.jpg') }}"
+                        data-lightbox="animal">
+                        <div class="position-relative mb-2">
+                            <img class="animal-imgs img-fluid"
+                                src="{{ asset('assets/img/Animals/birds/budgerigar.jpg') }}" alt="Budgerigar">
+                            <div class="animal-text p-4">
+                                <p class="text-white small text-uppercase mb-0">Bird</p>
+                                <h5 class="text-success mb-0"><b>Budgerigar</b></h5>
+                                <i class="text-white">Colorful parrot known for mimicry and cheerful chirps.</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 animal-item-card" data-animal="Birds">
+                    <a class="animal-item" href="{{ asset('assets/img/Animals/birds/cockatiel.jpg') }}"
+                        data-lightbox="animal">
+                        <div class="position-relative mb-2">
+                            <img class="animal-imgs img-fluid"
+                                src="{{ asset('assets/img/Animals/birds/cockatiel.jpg') }}" alt="Cockatiel">
+                            <div class="animal-text p-4">
+                                <p class="text-white small text-uppercase mb-0">Bird</p>
+                                <h5 class="text-success mb-0"><b>Cockatiel</b></h5>
+                                <i class="text-white">Small cockatoo with a yellow crest and orange cheek patch.</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 animal-item-card" data-animal="Birds">
+                    <a class="animal-item" href="{{ asset('assets/img/Animals/birds/alexandrine.jpg') }}"
+                        data-lightbox="animal">
+                        <div class="position-relative mb-2">
+                            <img class="animal-imgs img-fluid"
+                                src="{{ asset('assets/img/Animals/birds/alexandrine.jpg') }}"
+                                alt="Alexandrine Parakeet">
+                            <div class="animal-text p-4">
+                                <p class="text-white small text-uppercase mb-0">Bird</p>
+                                <h5 class="text-success mb-0"><b>Alexandrine Parakeet</b></h5>
+                                <i class="text-white">Large parakeet with red wing patch and pink neck ring.</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 animal-item-card" data-animal="Birds">
+                    <a class="animal-item" href="{{ asset('assets/img/Animals/birds/ringneck.jpg') }}"
+                        data-lightbox="animal">
+                        <div class="position-relative mb-2">
+                            <img class="animal-imgs img-fluid"
+                                src="{{ asset('assets/img/Animals/birds/ringneck.jpg') }}" alt="Rose-ringed Parakeet">
+                            <div class="animal-text p-4">
+                                <p class="text-white small text-uppercase mb-0">Bird</p>
+                                <h5 class="text-success mb-0"><b>Rose-ringed Parakeet</b></h5>
+                                <i class="text-white">Medium-sized parakeet with black and pink neck ring.</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Birds End -->
+
+
+
+                <!-- ================= Aquatic ================= -->
+                <div class="col-lg-4 col-md-6 animal-item-card" data-animal="Aquatic">
+                    <a class="animal-item" href="{{ asset('assets/img/Animals/Aquatic/fish1.jpg') }}"
+                        data-lightbox="animal">
+                        <div class="position-relative mb-2">
+                            <img class="animal-imgs img-fluid" src="{{ asset('assets/img/Animals/Aquatic/fish1.jpg') }}"
+                                alt="Goldfish">
+                            <div class="animal-text p-4">
+                                <p class="text-white small text-uppercase mb-0">Aquatic</p>
+                                <h5 class="text-success mb-0"><b>Goldfish</b></h5>
+                                <i class="text-white">Graceful golden fish with shimmering scales and smooth
+                                    swimming.</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 animal-item-card" data-animal="Aquatic">
+                    <a class="animal-item" href="{{ asset('assets/img/Animals/Aquatic/fish2.jpg') }}"
+                        data-lightbox="animal">
+                        <div class="position-relative mb-2">
+                            <img class="animal-imgs img-fluid" src="{{ asset('assets/img/Animals/Aquatic/fish2.jpg') }}"
+                                alt="Emperor Angelfish">
+                            <div class="animal-text p-4">
+                                <p class="text-white small text-uppercase mb-0">Aquatic</p>
+                                <h5 class="text-success mb-0"><b>Emperor Angelfish</b></h5>
+                                <i class="text-white">Colorful marine fish with bold blue and yellow stripes.</i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
 
                 <!-- ================= Aquatic Intro ================= -->
-                <div class="col-12" data-animal="Aquatic">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.3s" data-animal="Aquatic">
                     <div class="card bg-light border-0 shadow-sm p-4">
                         <h3 class="text-success">Dive into the mesmerizing world of aquatic life</h3>
                         <p class="text-muted">Our zoo’s Aquatic Animals Zone showcases a wide range of marine and
@@ -413,6 +485,8 @@
                             playful penguins that love to dive and splash around.</p>
                     </div>
                 </div>
+
+                <!-- Aquatic End -->
 
             </div>
         </div>
