@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="img-border">
-                        <img class="img-fluid" src="{{ asset('assets/img/about.jpg') }}" alt="About Maharajbag Zoo">
+                        <img class="img-fluid" src="{{ asset('assets/img/bg-1.jpg') }}" alt="About Maharajbag Zoo">
                     </div>
                 </div>
             </div>
@@ -91,10 +91,7 @@
       <div class="container">
         <h1
           class="display-5 section-title text-black text-center mb-5 wow fadeInUp"
-          data-wow-delay="0.1s"
-        >
-          Our Mission
-        </h1>
+          data-wow-delay="0.1s">Our Mission</h1>
         <div
           class="owl-carousel testimonial-carousel wow fadeInUp"
           data-wow-delay="0.1s"
