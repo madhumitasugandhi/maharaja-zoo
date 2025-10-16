@@ -20,7 +20,7 @@
                         <p><span class="text-primary me-2">#</span>Education</p>
                         <h1 class="display-5 mb-3">
                             Career Options In
-                            <span class="text-primary">Maharaj Bagh</span>
+                            <span class="text-primary">Maharajbag</span>
                         </h1>
                         <p class="text-muted">Explore opportunities to grow with us — as a Researcher, Intern, or
                             Volunteer.</p>
