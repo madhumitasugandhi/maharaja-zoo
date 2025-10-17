@@ -36,7 +36,7 @@
                     <a class="btn btn-primary py-3 px-5 mt-3" href="#team">Meet Our Team</a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="img-border">
+                    <div class="img-border border border-4 border-primary">
                         <img class="img-fluid" src="{{ asset('assets/img/bg-1.jpg') }}" alt="About Maharajbag Zoo">
                     </div>
                 </div>
