@@ -28,9 +28,9 @@
                 <!-- Address -->
                 <div class="col-lg-3 col-md-6 text-center text-md-start">
                     <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Gorepeth, Nagpur, Maharashtra 440012</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9423636143</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sitabardi, Nagpur, Maharashtra 440012</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0712-2523720</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>maharajbagzoo@gmail.com </p>
                 </div>
             </div>
         </div>
