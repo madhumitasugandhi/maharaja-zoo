@@ -14,7 +14,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>Gorepeth, Nagpur, Maharashtra 440012</small>
+                    <small>Sitabardi, Nagpur, Maharashtra 440012</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
@@ -24,7 +24,7 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small> 9423636143 </small>
+                    <small> 0712-2523720 </small>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
         data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand p-0">
             <img class="img-fluid me-3" src="{{ asset('assets/img/logo/logo1.png') }}" alt="Icon" />
-            <h1 class="m-0 text-primary">Maharajbag</h1>
+            <h1 class="m-0 text-primary">Maharajbag Zoo</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
