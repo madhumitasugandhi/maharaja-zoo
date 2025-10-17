@@ -151,8 +151,6 @@
       </thead>
       <tbody>
         <tr><td>Zoo Controller</td><td>Dr. P. R. Kadu</td></tr>
-        <tr><td>Officer In-charge (Zoo) / Director</td><td>Dr. S. S. Bawaskar</td></tr>
-        <tr><td>Officer In-charge (Garden)</td><td>Veterinary Officer</td></tr>
         <tr><td>Curator</td><td>-</td></tr>
         <tr><td>Education Officer cum Biologist</td><td>-</td></tr>
         <tr><td>Sr. Clerk / Livestock Supervisor</td><td>-</td></tr>
