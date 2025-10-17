@@ -19,13 +19,13 @@
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="owl-carousel header-carousel">
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="{{ asset('assets/img/carousel-1.jpg') }}" alt="" />
+                        <img class="img-fluid" src="{{ asset('assets/img/c1.jpg') }}" alt="" />
                     </div>
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="{{ asset('assets/img/carousel-2.jpg') }}" alt="" />
+                        <img class="img-fluid" src="{{ asset('assets/img/c2.jpg') }}" alt="" />
                     </div>
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="{{ asset('assets/img/carousel-3.jpg') }}" alt="" />
+                        <img class="img-fluid" src="{{ asset('assets/img/c4.jpg') }}" alt="" />
                     </div>
                 </div>
             </div>
@@ -196,21 +196,21 @@
                         <tbody>
                             <tr>
                                 <td>Zoo</td>
-                                <td>Gorepeth, Nagpur, Maharashtra 440012</td>
+                                <td>Sitabardi, Nagpur, Maharashtra 440012</td>
                             </tr>
                             <tr>
                                 <td>Ticket</td>
                                 <td>
-                                    <p class="mb-2">Adult- 40</p>
-                                    <p class="mb-2">Children – 20</p>
-                                    <p class="mb-2">Children park - 5</p>
+                                    <p class="mb-2">Adult - ₹40</p>
+                                    <p class="mb-2">Children – ₹20</p>
+
                                 </td>
                             </tr>
                             <tr>
                                 <td>Support</td>
                                 <td>
-                                    <p class="mb-2">9423636143</p>
-                                    <p class="mb-0">info@gmail.com</p>
+                                    <p class="mb-2">0712-2523720</p>
+                                    <p class="mb-0">maharajbagzoo@gmail.com </p>
                                 </td>
                             </tr>
                         </tbody>
