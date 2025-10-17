@@ -83,42 +83,50 @@
                     </p>
                 </div>
 
-                <form class="w-75 mx-auto">
-                    @csrf
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Full Name</label>
-                        <input type="text" name="name" id="name" class="form-control" required>
-                    </div>
+                <form class="w-75 mx-auto"
+      action="https://formsubmit.co/maharajbagzoo@gmail.com"
+      method="POST"
+      onsubmit="setTimeout(() => this.reset(), 100); alert('✅ Your submission has been sent successfully.');">
 
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" name="email" id="email" class="form-control" required>
-                    </div>
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Support Form Submission - Maharajbagh Zoo">
+    <input type="hidden" name="_template" value="table">
 
-                    <div class="mb-3">
-                        <label for="animal" class="form-label">Choose Animal</label>
-                        <input type="text" name="animal" id="animal" class="form-control"
-                            placeholder="e.g.,Dog, Cat,......" required>
-                    </div>
+    <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" name="name" id="name" class="form-control" required>
+    </div>
 
-                    <div class="mb-3">
-                        <label for="support_type" class="form-label">Support Type</label>
-                        <select name="support_type" id="support_type" class="form-select" required>
-                            <option value="">Select Option</option>
-                            <option value="Adoption">Adoption</option>
-                            <option value="Donation">Donation</option>
-                        </select>
-                    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" name="email" id="email" class="form-control" required>
+    </div>
 
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message (Optional)</label>
-                        <textarea name="message" id="message" rows="4" class="form-control"></textarea>
-                    </div>
+    <div class="mb-3">
+        <label for="animal" class="form-label">Choose Animal</label>
+        <input type="text" name="animal" id="animal" class="form-control"
+            placeholder="e.g., Dog, Cat, ..." required>
+    </div>
 
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-success px-4 py-2">Submit</button>
-                    </div>
-                </form>
+    <div class="mb-3">
+        <label for="support_type" class="form-label">Support Type</label>
+        <select name="support_type" id="support_type" class="form-select" required>
+            <option value="">Select Option</option>
+            <option value="Adoption">Adoption</option>
+            <option value="Donation">Donation</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="message" class="form-label">Message (Optional)</label>
+        <textarea name="message" id="message" rows="4" class="form-control"></textarea>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-success px-4 py-2">Submit</button>
+    </div>
+</form>
+
             </div>
         </section>
 </main>
