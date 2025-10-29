@@ -36,7 +36,7 @@
         data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand p-0">
             <img class="img-fluid me-3" src="{{ asset('assets/img/logo/logo1.png') }}" alt="Icon" />
-            <h1 class="m-0 text-primary">Maharajbag Zoo</h1>
+            <h2 class="m-0 text-primary">Maharajbag Zoo</h2>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
