@@ -150,6 +150,7 @@
         </tr>
       </thead>
       <tbody>
+        <tr><td>Officer In-charge</td><td>Dr. S. S. Bawaskar</td></tr>
         <tr><td>Zoo Controller</td><td>Dr. P. R. Kadu</td></tr>
         <tr><td>Curator</td><td>-</td></tr>
         <tr><td>Education Officer cum Biologist</td><td>-</td></tr>
